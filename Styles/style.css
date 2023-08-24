@@ -1,0 +1,25 @@
+ #button-primary{
+ display: flex;
+
+ }
+ #btn-main{
+    margin-left: 45%;
+    padding-top: 30px;
+    
+ }
+ .btn{
+    padding: 6px;
+    margin: 2px;
+    border-radius: 10px dotted black;
+    background-color:rgba(138, 132, 133, 0.548);
+    color:rgb(10, 11, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: hidden;
+ }
+ #header-background{
+    height: 300;
+    width: 100%;
+    background-color: rgba(138, 132, 133, 0.548);
+    display: flex;
+    border-radius: 2px;
+ }
