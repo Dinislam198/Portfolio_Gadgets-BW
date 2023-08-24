@@ -16,8 +16,11 @@
         }
         .L-item{
             margin: 5px;
-            background-color: aliceblue; 
+            background-color: rgba(156, 196, 231, 0.664); 
             border: none;
+            font-size:large;
+            font-family: sans-serif;
+            border-radius: 20px;
         }
     </style>
 <body>
@@ -47,7 +50,7 @@
         </div>
     </header>
     <body >
-        <div style="margin-top: 25px; margin-left: 20px; " id="body-main">
+        <div style="margin-top: 25px; margin-left: 20px;" id="body-main">
             <div id="item-list">
                 <div style=" display: flex; ">
                     <button class="L-item">All</button>
@@ -57,9 +60,30 @@
                 </div> 
             </div>
             <div id="card">
-                <div id="card-1"></div>
-                <div id="card-2"></div>
-                <div id="card-3"></div>
+                <div id="card-1" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s; margin-left: 120px; ">
+                    <img src="Images/Card 1.jpg" alt="This is Watch You can buy" style="width:260px; border-radius: 5px 5px 0 0;">
+                    <div style="text-align: center; font-family:'Courier New', Courier, monospace">
+                        <h2>Black & White Simple</h2>
+                        <p>For Cool People</p>
+                    </div>
+                </div>
+                <div id="card-2" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s; margin-left: 100px;">
+                    <img src="Images/Card 2.jpg" alt="This I Black Version Simple Design watch" style="width: 260px; border-radius: 5px 5px 0 0; ">
+                    <div style="text-align: center; font-family:'Courier New', Courier, monospace">
+                        <h2>Black Simple</h2>
+                        <p>Developers Choice</p>
+                    </div>
+                </div>
+                <div id="card-3" style="
+                transition: 0.3s; margin-left: 25px; margin-left: 100px;  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                    <img src="Images/card 3.jpg" alt="This is beautiful watch picture" style="width: 260px; border-radius: 5px 5px 0 0;">
+                    <div style="text-align: center; font-family:'Courier New', Courier, monospace">
+                        <h2>Laxuious Watch</h2>
+                        <p>Architecture Designer</p>
+                    </div>
+                </div>
             </div>
 
         </div>
