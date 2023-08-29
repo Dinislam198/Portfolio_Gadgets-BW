@@ -29,6 +29,13 @@
    margin-left: 35px;
    
  }
-.card-1.hover{
-   box-shadow: 0 8px 16px 0 rgba(223, 8, 8, 0.685);
- }
+#body-bottom{
+   height: 800;
+   width: 100%;
+   background-color: rgba(255, 192, 203, 0.418);
+   border-radius: 5px;
+}
+label{
+   display: block;
+   margin-bottom: 5px;
+}
